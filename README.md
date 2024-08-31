@@ -1,1 +1,1 @@
-È una dashboard che permette ai manager di gestire i dipendenti e gli ordini, sia online che fisici, per ottimizzare le operazioni di delivery e migliorare l'efficienza nella gestione delle attività del punto vendita.
+È una piattaforma che consente ai manager di gestire i dipendenti e gli ordini, sia online che fisici, per ottimizzare le operazioni di delivery e migliorare l'efficienza nella gestione delle attività del punto vendita.
