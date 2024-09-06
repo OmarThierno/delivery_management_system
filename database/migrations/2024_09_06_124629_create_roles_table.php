@@ -11,8 +11,11 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::table('typologies', function (Blueprint $table) {
-            $table->string('icon')->after('name');
+        Schema::create('roles', function (Blueprint $table) {
+            $table->id();
+            $table->string('name')->unique();
+            $table->string('icon')->nullable();
+            $table->timestamps();
         });
     }
 
@@ -21,8 +24,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::table('typologies', function (Blueprint $table) {
-            $table->dropColumn('icon');
-        });
+        Schema::dropIfExists('roles');
     }
 };
